@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`actions should add a new item to list 1`] = `[Function]`;
+
+exports[`actions should create remove item action 1`] = `[Function]`;

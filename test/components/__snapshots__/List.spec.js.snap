@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component should match exact snapshot 1`] = `
+<div>
+  <div>
+    <div
+      className="backButton"
+      data-tid="backButton"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <i
+          className="fa fa-arrow-left fa-3x"
+        />
+      </a>
+    </div>
+    <h2
+      className="title"
+    >
+      TODO List:
+    </h2>
+    <div>
+      <input
+        onChange={[Function]}
+        type="text"
+      />
+      <span>
+        You typed: 
+        <code>
+          
+        </code>
+         
+      </span>
+    </div>
+    <div
+      className="group-items list"
+    >
+      <div>
+        <li>
+          1
+        </li>
+        <button
+          className="btn"
+          data-tclass="btn"
+          id="delete"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="fa fa-minus"
+          />
+        </button>
+      </div>
+      <div>
+        <li>
+          2
+        </li>
+        <button
+          className="btn"
+          data-tclass="btn"
+          id="delete"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="fa fa-minus"
+          />
+        </button>
+      </div>
+      <div>
+        <li>
+          3
+        </li>
+        <button
+          className="btn"
+          data-tclass="btn"
+          id="delete"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="fa fa-minus"
+          />
+        </button>
+      </div>
+      <div>
+        <li>
+          4
+        </li>
+        <button
+          className="btn"
+          data-tclass="btn"
+          id="delete"
+          onClick={[Function]}
+          type="button"
+        >
+          <i
+            className="fa fa-minus"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      className="btnGroup"
+    >
+      <button
+        className="btn"
+        data-tclass="btn"
+        id="add"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa fa-plus"
+        />
+      </button>
+      <button
+        className="btn"
+        data-tclass="btn"
+        id="delete"
+        onClick={[Function]}
+        type="button"
+      >
+        <i
+          className="fa fa-minus"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;

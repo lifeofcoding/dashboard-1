@@ -23,6 +23,7 @@ export default class Counter extends Component<Props> {
       decrement,
       counter
     } = this.props;
+    
     return (
       <div>
         <div className={styles.backButton} data-tid="backButton">
