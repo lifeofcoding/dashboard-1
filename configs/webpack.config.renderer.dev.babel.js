@@ -18,7 +18,8 @@ import CheckNodeEnv from '../internals/scripts/CheckNodeEnv';
 
 CheckNodeEnv('development');
 
-const port = process.env.PORT || 1212;
+const port = process.env.PORT || 3000;
+console.log('PROCESS PORT CHECK', process.env.PORT, 4000)
 const publicPath = `http://localhost:${port}/dist`;
 const dll = path.join(__dirname, '..', 'dll');
 const manifest = path.resolve(dll, 'renderer.json');

@@ -15,7 +15,7 @@ export default class Home extends Component<Props> {
         <h2>Home</h2>
         <Link className={styles.lineItem} to={routes.COUNTER}>to Counter</Link>
         <Link className={styles.lineItem} to={routes.LIST}>to List</Link>
-        <Link className={styles.lineItem} to={routes.LIST}>to Clock</Link>
+        <Link className={styles.lineItem} to={routes.CLOCK}>to Clock</Link>
       </div>
     );
   }

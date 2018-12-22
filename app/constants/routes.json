@@ -1,5 +1,6 @@
 {
   "HOME": "/",
   "LIST": "/list",
-  "COUNTER": "/counter"
+  "COUNTER": "/counter",
+  "CLOCK": "/clock"
 }
